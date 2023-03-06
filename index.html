@@ -14,7 +14,7 @@
         <div class="pt-2">
             <img src="./images/logo.svg" alt="logo">
         </div>
-        <div class=" hidden md:flex space-x-6">
+        <div class=" hidden  space-x-6 md:flex ">
             <a href="#" class="hover:text-darkgrayishblue">Pricing</a>
             <a href="#" class="hover:text-darkgrayishblue">Product</a>
             <a href="#" class="hover:text-darkgrayishblue">About Us</a>
@@ -22,20 +22,48 @@
             <a href="#" class="hover:text-darkgrayishblue">Community</a>
         </div>
         <div>
-            <a href="#" class="hidden md:block bg-brightred p-3 text-white rounded-full px-6
-             hover:bg-brightredlight">Get Started</a>
+            <a href="#" class="hidden  bg-brightred p-3 text-white rounded-full px-6
+             hover:bg-brightredlight md:block">Get Started</a>
         </div>
     </div>
    </nav>
    <section id="hero">
-    <div class="container mx-auto flex flex-col-reverse md:flex-row items-center px-6
-    mt-10 space-y-0 md:space-y-0">
+    <div
+    class="container flex flex-col-reverse items-center px-6 mx-auto 
+    mt-10 space-y-0 md:space-y-0 md:flex-row">
     <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
         <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">Bring everyone together to build better products.</h1>
-        <p>Manage makes it simple for software teams to plan day-to-day 
+        <p class="max-w-sm text-center text-darkgrayishblue md:text-left">
+            Manage makes it simple for software teams to plan day-to-day 
             tasks while keeping the larger team goals in view.
         </p>
-      
+        <div class="flex justify-center  md:justify-start">
+            <a href="#" class=" bg-brightred p-3 text-white rounded-full px-6
+             hover:bg-brightredlight">Get Started</a>
+        </div>
+    </div>
+    <div  class="md:w-1/2">
+        <img src="images/illustration-intro.svg"  alt="">
+    </div>
+    </div>
+   </section>
+
+   <section id="features">
+    <div class="container mx-auto flex flex-col px-4 mt-10 space-y-12
+    md:space-y-0">
+    <div class="flex flex-col space-y-12 md:w-1/2">
+       <h2 class="max-w-md text-4xl font-bold text-center md:text-left">What’s different about Manage?</h2>
+
+       <p class="max-w-sm text-center text-darkgrayishblue md:text-left"> Manage provides all the functionality your team needs, without 
+        the complexity. Our software is tailor-made for modern digital 
+        product teams.
+       </p>
+    </div>
+
+    <div class="flex flex-col space-y-8 md:w-1/2">
+        <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+
+        </div>
     </div>
     </div>
    </section>
